@@ -79,6 +79,11 @@
 }
 
 @media screen and (max-width:780px) {
+
+    .n{
+        width: 360px;
+        height: 70px;
+    }
     
     .logo{
         display: flex;

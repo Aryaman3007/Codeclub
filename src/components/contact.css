@@ -5,6 +5,7 @@
     background-size: cover;
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .s-left{
@@ -18,7 +19,7 @@
     margin-left: 180px;
 }
 
-.logo{
+.logof{
     height: 70px;
     width: 70px;
     margin: 50px 0px;
@@ -71,38 +72,50 @@
 
 @media screen and (max-width:780px) {
     .s{
-        width: 260%;
+        width: 360px;
         display: flex;
         position: absolute;
+        height: 55vh;
     }  
     
-    .logo{
-        height: 50px;
-        width: 50px;
-        margin: 80px 5px;
+    .logof{
+        height: 30px;
+        width: 30px;
+        margin-top: 80px;
+        margin-left: 60px;
         display: flex;
+        left: 0;
         position: absolute;
     }
 
     .logo-title{
-        font-size: 30px;
+        font-size: 20px;
         margin-left: 30px;
-        margin-top: 140px;
+        margin-top: 120px;
     }
 
     .s-right{
-        margin-left: 250px;
+        margin-left: 50px;
     }
 
     .s-title{
-        font-size: 20px;
-        margin-left: 100px;
-        margin-right: 30px;
+        font-size: 17px;
+        margin-left: 20px;
+        margin-top: 260px;
+        display: flex;
+        position: absolute;
+        left: 0;
+        width: 100%;
     }
 
     .s-img:nth-child(1){
-        margin-left: 230px;
-        margin-top: 20px;
+        margin-left: 120px;
+    }
+
+    .s-img{
+        margin: 10px 10px;
+        height: 20px;
+        width: 20px;
     }
 
     .s-middle{
@@ -112,7 +125,14 @@
 
     .s-items{
         font-size: 15px;
-        margin-left: 120px;
+        margin-left: 0px;
+    }
+
+    .s-img-list{
+        display: flex;
+        position: absolute;
+        left: 0;
+        margin-top: 290px;
     }
 }
 

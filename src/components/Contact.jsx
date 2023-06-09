@@ -9,7 +9,7 @@ const Support = () => {
   return (
     <div className='s'>
       <div className="s-left">
-        <img src={Lo} alt="" className="logo" />
+        <img src={Lo} alt="" className="logof" />
         <p className="logo-title">Codeclub</p>
       </div>
       <div className="s-middle">

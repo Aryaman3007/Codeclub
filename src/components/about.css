@@ -7,6 +7,7 @@
     align-items: center;
     padding-top: 40px;
     padding-bottom: 50px;
+    width: 100%;
 }
 
 .a-img{
@@ -34,20 +35,25 @@
 
 @media screen and (max-width:780px) {
     .a{
-        width: 260%;
+        width: 360px;
+        height: 25vh;
     }
     .a-img{
-        height: 100px;
-        width: 100px;
+        height: 60px;
+        width: 60px;
+        margin: 0px 10px;
     }
 
     .a-imgsy{
-        height: 40px;
-        width: 40px;
+        height: 15px;
+        width: 15px;
+        margin: 0px 20px;
     }
 
     .a-desc{
-        font-size: 16px;
-        margin-top:5px
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
     }
 }

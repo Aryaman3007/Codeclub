@@ -4,6 +4,7 @@
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL0ZTgUIok07HnRA1Iepe10uL83CSFeDvcuuwGhjOT-LAMBJaYrYnXqhd8AGgmJFusfg&usqp=CAU");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 
 .r-title{
@@ -69,12 +70,12 @@
 
 @media screen and (max-width:780px) {
     .r{
-        height: 550vh;
-        width: 260%;
+        height: 650vh;
+        width: 360px;
     }  
 
     .r-title{
-        font-size: 40px;
+        font-size: 28px;
     }
     
     .r-list{
@@ -85,16 +86,16 @@
     }
 
     .r-card{
-        width: 450px;
-        height: 540px;
+        width: 300px;
+        height: 670px;
     }
 
     .r-img{
-        width: 450px;
+        width: 300px;
     }
 
     .r-link{
-        margin: 15px 175px;
+        margin: 15px 100px;
     }
 }
 

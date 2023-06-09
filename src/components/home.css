@@ -89,16 +89,16 @@
 
 @media screen and (max-width:780px) {
     .h{
-        height: 120vh;
+        height: 130vh;
         display: flex;
         flex-direction: column;
-        width: 260%;
+        width: 360px;
     }
 
     .h-title{
-        font-size: 45px;
+        font-size: 28px;
         margin-right: 0px;
-        margin: 0px 0px;
+        margin: 20px 0px;
     }
 
     .h-desc{
@@ -109,20 +109,21 @@
     }
 
     .h-img{
-        height: 250px;
-        width: 270px;
+        height: 150px;
+        width: 180px;
     }
     
     .h-bg{
-        height: 280px;
-        width: 300px;
+        height: 180px;
+        width: 200px;
     }
 
     .join{
-        height: 30px;
+        height: 35px;
         width: 310px;
         border-radius: 35px;
         background-color: azure;
+        margin: 30px 0px;
     }
     
     .join-text{
