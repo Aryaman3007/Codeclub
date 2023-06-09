@@ -69,3 +69,50 @@
     cursor: pointer;
 }
 
+@media screen and (max-width:780px) {
+    .s{
+        width: 260%;
+        display: flex;
+        position: absolute;
+    }  
+    
+    .logo{
+        height: 50px;
+        width: 50px;
+        margin: 80px 5px;
+        display: flex;
+        position: absolute;
+    }
+
+    .logo-title{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 140px;
+    }
+
+    .s-right{
+        margin-left: 250px;
+    }
+
+    .s-title{
+        font-size: 20px;
+        margin-left: 100px;
+        margin-right: 30px;
+    }
+
+    .s-img:nth-child(1){
+        margin-left: 230px;
+        margin-top: 20px;
+    }
+
+    .s-middle{
+        display: flex;
+        position: absolute;
+    }
+
+    .s-items{
+        font-size: 15px;
+        margin-left: 120px;
+    }
+}
+

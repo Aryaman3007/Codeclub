@@ -33,6 +33,9 @@
 
 
 @media screen and (max-width:780px) {
+    .a{
+        width: 260%;
+    }
     .a-img{
         height: 100px;
         width: 100px;

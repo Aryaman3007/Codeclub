@@ -89,9 +89,10 @@
 
 @media screen and (max-width:780px) {
     .h{
-        height: 110vh;
+        height: 120vh;
         display: flex;
         flex-direction: column;
+        width: 260%;
     }
 
     .h-title{

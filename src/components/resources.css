@@ -69,7 +69,8 @@
 
 @media screen and (max-width:780px) {
     .r{
-        height: 520vh;
+        height: 550vh;
+        width: 260%;
     }  
 
     .r-title{

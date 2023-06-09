@@ -192,7 +192,8 @@
 
 @media screen and (max-width:780px) {
     .b {
-        height: 170vh;
+        height: 190vh;
+        width: 260%;
     }
 
     .b-title {
