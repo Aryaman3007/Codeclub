@@ -192,8 +192,8 @@
 
 @media screen and (max-width:780px) {
     .b {
-        height: 170vh;
-        width: 360px;
+        height: 200vh;
+        width: 100%;
     }
 
     .b-title {
@@ -270,10 +270,11 @@
 
     .message {
         width: 350px;
-        height: 150px;
+        height: 170px;
         padding-left: 10px;
         padding-top: 10px;
         border: 1px solid grey;
+        margin-right: 20px;
     }
 
     .full-name,
