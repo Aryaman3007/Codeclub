@@ -88,7 +88,7 @@
 
 @media screen and (max-width:780px) {
     .h{
-        height: 120vh;
+        height: 105vh;
         display: flex;
         flex-direction: column;
         width: 100%;
